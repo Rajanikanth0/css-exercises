@@ -4,6 +4,7 @@
   width: 400px;
   height: 300px;
 
+  /* center alignment */
   display: flex;
   justify-content: center;
   align-items: center;
