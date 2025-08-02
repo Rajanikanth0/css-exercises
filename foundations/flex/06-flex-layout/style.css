@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -41,7 +45,8 @@ a {
   text-decoration: none;
   color: #575757;
 }
-.header {
+
+.header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -50,4 +55,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.footer {
+  background-color: #eeeeee;
 }
